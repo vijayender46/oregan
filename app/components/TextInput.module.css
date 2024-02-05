@@ -1,0 +1,36 @@
+.wrapper {
+    margin-bottom:10px;
+    width:100%;
+}
+
+.text_box, .password_text_box {
+    background:#fff;
+    height:50px;
+    border-radius:5px;
+    color:#000;
+    font-size:24px;
+    width:100%;
+    text-overflow: ellipsis;
+    display: flex;
+    cursor: text;
+}
+
+.toggle_button {
+    margin:0 0 0 10px;
+    background: blue;
+    color:white;
+    height:50px;
+    line-height: 50px;
+    width:80px;
+    cursor:pointer;
+    border-radius:5px;
+    text-align: center;
+}
+
+.label {
+    position: absolute;
+    top:0;
+    left:0;
+    color:#fff;
+    font-size:16px;
+  }
